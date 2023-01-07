@@ -23,7 +23,7 @@ main{
     display: inline;
 }
 ul{
-    margin-left: -50px;
+    margin-left: -90px;
     display: inline-flex;
 }
 li{
@@ -51,9 +51,23 @@ img{
 }
 .redes-sociais ul li a img:hover{
    width: 5%;
-   border-bottom: 3px solid #03f6fe;
 }
 .rato {
     position: fixed;
     top: 439px; 
+}
+.servicos{
+    text-align: end;
+    position: relative;  
+}
+.servicos ul{
+    margin-right: 20%;
+    float: none;
+}
+.servicos ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+a.btn.btn-primary{
+    margin-top: 15px;
 }
